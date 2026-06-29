@@ -1,0 +1,290 @@
+{
+  "classes": [
+    {
+      "id": 1,
+      "name": "10TH GRADE",
+      "code": "10",
+      "createdBy": "admin"
+    },
+    {
+      "id": 2,
+      "name": "9TH GRADE",
+      "code": "9",
+      "createdBy": "admin"
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "name": "INTELLIGENCE",
+      "code": "INT",
+      "identifier": "INT",
+      "createdBy": "admin"
+    },
+    {
+      "id": 2,
+      "name": "GENERAL KNOWLEDGE",
+      "code": "GK",
+      "identifier": "GK",
+      "createdBy": "admin"
+    },
+    {
+      "id": 3,
+      "name": "MATHEMATICS",
+      "code": "MATH",
+      "identifier": "MATH",
+      "createdBy": "admin"
+    }
+  ],
+  "students": [
+    {
+      "regNo": "12345",
+      "loginId": "12345",
+      "name": "TEST CANDIDATE",
+      "classId": 1,
+      "password": "9898",
+      "cnic": "23456",
+      "activationDays": 365,
+      "photo": "",
+      "active": true,
+      "createdBy": "admin"
+    }
+  ],
+  "users": [
+    {
+      "id": "admin",
+      "name": "Administrator",
+      "role": "admin",
+      "loginId": "admin",
+      "password": "admin123",
+      "active": true
+    },
+    {
+      "id": "t1",
+      "name": "Demo Teacher",
+      "role": "teacher",
+      "loginId": "teacher",
+      "password": "teacher123",
+      "active": true
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "subjectId": 1,
+      "text": "People attend educational institutions because:",
+      "qImage": "",
+      "options": {
+        "A": {
+          "text": "They want to spend time.",
+          "img": ""
+        },
+        "B": {
+          "text": "They are forced to do so.",
+          "img": ""
+        },
+        "C": {
+          "text": "They want to get good jobs.",
+          "img": ""
+        },
+        "D": {
+          "text": "They want to get knowledge.",
+          "img": ""
+        },
+        "E": {
+          "text": "",
+          "img": ""
+        }
+      },
+      "correct": "D",
+      "difficulty": "Easy",
+      "tags": "",
+      "createdBy": "admin"
+    },
+    {
+      "id": 2,
+      "subjectId": 1,
+      "text": "Which of the following is a primary color?",
+      "qImage": "",
+      "options": {
+        "A": {
+          "text": "Green",
+          "img": ""
+        },
+        "B": {
+          "text": "Red",
+          "img": ""
+        },
+        "C": {
+          "text": "Orange",
+          "img": ""
+        },
+        "D": {
+          "text": "Purple",
+          "img": ""
+        },
+        "E": {
+          "text": "",
+          "img": ""
+        }
+      },
+      "correct": "B",
+      "difficulty": "Easy",
+      "tags": "",
+      "createdBy": "admin"
+    },
+    {
+      "id": 3,
+      "subjectId": 2,
+      "text": "What is the capital of France?",
+      "qImage": "",
+      "options": {
+        "A": {
+          "text": "London",
+          "img": ""
+        },
+        "B": {
+          "text": "Berlin",
+          "img": ""
+        },
+        "C": {
+          "text": "Paris",
+          "img": ""
+        },
+        "D": {
+          "text": "Madrid",
+          "img": ""
+        },
+        "E": {
+          "text": "",
+          "img": ""
+        }
+      },
+      "correct": "C",
+      "difficulty": "Easy",
+      "tags": "",
+      "createdBy": "admin"
+    },
+    {
+      "id": 4,
+      "subjectId": 2,
+      "text": "Which planet is known as the Red Planet?",
+      "qImage": "",
+      "options": {
+        "A": {
+          "text": "Venus",
+          "img": ""
+        },
+        "B": {
+          "text": "Mars",
+          "img": ""
+        },
+        "C": {
+          "text": "Jupiter",
+          "img": ""
+        },
+        "D": {
+          "text": "Saturn",
+          "img": ""
+        },
+        "E": {
+          "text": "",
+          "img": ""
+        }
+      },
+      "correct": "B",
+      "difficulty": "Easy",
+      "tags": "",
+      "createdBy": "admin"
+    },
+    {
+      "id": 5,
+      "subjectId": 3,
+      "text": "What is 5 + 7?",
+      "qImage": "",
+      "options": {
+        "A": {
+          "text": "10",
+          "img": ""
+        },
+        "B": {
+          "text": "11",
+          "img": ""
+        },
+        "C": {
+          "text": "12",
+          "img": ""
+        },
+        "D": {
+          "text": "13",
+          "img": ""
+        },
+        "E": {
+          "text": "",
+          "img": ""
+        }
+      },
+      "correct": "C",
+      "difficulty": "Easy",
+      "tags": "",
+      "createdBy": "admin"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "ACADEMIC TEST",
+      "subjectId": 1,
+      "classId": 1,
+      "durationMin": 40,
+      "passPct": 60,
+      "questionIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active": true,
+      "randomize": false,
+      "generationMode": "manual",
+      "resultOptions": {
+        "passFail": true,
+        "percentage": true,
+        "score": true,
+        "time": false,
+        "correctAnswers": false
+      },
+      "createdBy": "admin"
+    }
+  ],
+  "results": [],
+  "examSeries": [],
+  "examDrafts": [],
+  "auditLogs": [],
+  "security": {
+    "antiCopy": true,
+    "fullscreen": true,
+    "tabSwitchDetection": true,
+    "maxTabSwitches": 3,
+    "blockRightClick": true,
+    "blockDevtools": true,
+    "autoLogoutOnViolation": true,
+    "disableCopyPaste": true,
+    "blockTextSelection": true,
+    "lockKeyboardShortcuts": true,
+    "preventContextMenu": true,
+    "webcamMonitoring": false,
+    "ipRestriction": false,
+    "shuffleQuestions": false,
+    "shuffleOptions": false,
+    "showTimerWarning": true,
+    "allowReviewMark": true,
+    "autoSubmitOnTimeUp": true,
+    "preventBackNavigation": true,
+    "resumeExam": true,
+    "editAnswered": true,
+    "disablePrintScreen": true,
+    "forceSingleMonitor": false
+  }
+}

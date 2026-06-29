@@ -1,0 +1,21 @@
+{
+  "name": "tgs-e-testing-vercel",
+  "version": "1.0.0",
+  "description": "TGS E-Testing LMS — Vercel serverless deployment (MongoDB Atlas).",
+  "private": true,
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.17",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

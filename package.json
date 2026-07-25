@@ -1,19 +1,29 @@
 {
-  "name": "tgs-e-testing-vercel",
+  "name": "iffi-cafe-pasrur",
   "version": "1.0.0",
-  "description": "TGS E-Testing LMS — Vercel serverless deployment (MongoDB Atlas).",
+  "description": "Full-Stack Management System & Storefront for Iffi Cafe Pasrur",
   "private": true,
-  "main": "api/index.js",
   "scripts": {
-    "dev": "vercel dev",
-    "deploy": "vercel --prod"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "adm-zip": "^0.5.17",
-    "cors": "^2.8.5",
-    "express": "^4.21.2",
-    "mongodb": "^6.12.0",
-    "multer": "^1.4.5-lts.1"
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.475.0",
+    "next": "^15.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "postcss": "^8.5.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.0.0"
   },
   "engines": {
     "node": ">=18"
